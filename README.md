@@ -1,0 +1,1 @@
+This is a projekt for the assignments in Teknisk termodynamik

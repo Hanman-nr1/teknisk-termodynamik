@@ -1,0 +1,19 @@
+[project]
+name = "teknisk-termodynamik"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hannes Eriksson", email = "hanman_nr1@hotmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pyfluids>=4.0.0",
+]
+
+[project.scripts]
+teknisk-termodynamik = "teknisk_termodynamik:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
