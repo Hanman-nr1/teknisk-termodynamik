@@ -21,3 +21,6 @@ air = pf.Fluid(pf.FluidsList.Air)
 air.update(pf.Input.pressure(p_0), pf.Input.temperature(temp))
 
 print(f"The current volume for the air is: {air.specific_volume} m^3")
+
+# Calculate the mass
+m = v_0 / air.specific_volume
